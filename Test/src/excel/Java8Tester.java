@@ -7,7 +7,7 @@ package excel;
 		      MathOperation addition = (int a, int b) -> a + b ;
 				
 		      //with out type declaration
-		      MathOperation subtraction = (a, b) -> a - b;
+		      MathOperation subtraction = (a, b) -> a - b; 
 				
 		      //with return statement along with curly braces
 		      MathOperation multiplication = (int a, int b) -> { return a * b; };
@@ -22,7 +22,7 @@ package excel;
 				
 		      //with parenthesis
 		      GreetingService greetService1 = message ->
-		      System.out.println("Hello " + message);
+		      System.out.println("Hello " + message +"sdas");
 				
 		      //without parenthesis
 		      GreetingService greetService2 = (message) ->
